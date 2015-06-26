@@ -18,6 +18,12 @@ Or install it yourself as:
 
     $ gem install capistrano-invoke
 
+Remember to add this line to your Capfile:
+
+```ruby
+require 'capistrano/invoke'
+```
+
 ## Usage
 
 Add this line to your Capfile and `cap invoke` will run the command given via the environment
