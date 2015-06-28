@@ -26,7 +26,7 @@ require 'capistrano/invoke'
 
 ## Usage
 
-Add this line to your Capfile and `cap invoke` will run the command given via the environment
+After adding this gem, `cap invoke` will run the command given via the environment
 variable `COMMAND` on all servers (OR ones specified by `HOSTS` or `ROLES`)
 
 ## Restrictions/TODOs
